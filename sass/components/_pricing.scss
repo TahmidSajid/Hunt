@@ -1,0 +1,125 @@
+.pricing_head{
+    padding-bottom: 60px;
+    p{
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        width: 566px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 32px;
+        text-transform: capitalize;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        padding-bottom: 16px !important; 
+    }
+}
+.pricing_tbl{
+    position: relative;
+    background-color: #f1f1f1;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    &:hover{
+        filter: drop-shadow(0px 0px 3px gray);
+        -webkit-filter: drop-shadow(0px 0px 3px gray);
+        .pri_tbl_head{
+            background-color: #fec600;
+            h4{
+                color: black;
+            }
+        }
+        .price_circle{
+            background-color: #fec600;
+            color: black;
+            p{
+                color: black;
+            }
+        }
+        .circle_outline{
+            border: 1px solid #fec600;
+        }
+        .price_bttn{
+            a{
+                background-color: #fec600;
+                color: black;
+            }
+        }
+    }
+    .pri_tbl_head{
+        background-color: #353535;
+        transition: 0.5s;
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        h4{
+            padding-top: 30px !important;
+            padding-bottom: 83px !important;
+            text-transform: uppercase;
+            color: white;
+            transition: 0.5s;
+        }
+    }
+    .price_circle{
+        height: 102px;
+        width: 102px;
+        margin: 0 auto;
+        padding: 17px 0px;
+        background-color: #353535;
+        border-radius: 50%;
+        border: 5px solid white;
+        color: white;
+        transition: 0.5s;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        h5{
+            font-size: 29px;
+        }
+        p{
+            font-size: 12px;
+            color: #9a9a9a;
+            text-transform: capitalize;
+        }
+    }
+    .circle_outline {
+        height: 104px;
+        width: 104px;
+        border: 1px solid #353535;
+        border-radius: 50%;
+        margin: 0 auto;
+        position: absolute;
+        left: 50%;
+        top: 30px;
+        transform: translate(-50% ,50%);
+        transition: 0.5s;
+    }
+    .pricing_list{
+        padding-top: 51px !important;
+        li{
+            display: block !important;
+            padding-bottom: 18px;
+            &:last-child{
+                padding-bottom: 0px !important;
+            }
+        }
+    }
+    .price_bttn{
+        a{
+            color: black;
+            background-color: #353535;
+            display: block;
+            padding-top: 42px !important;
+            padding-bottom: 16px !important;
+            text-transform: uppercase;
+            color: white;
+            transition: 0.5s;
+            clip-path: polygon(0 40%, 100% 1%, 100% 100%, 0% 100%);
+            font-family: 'Raleway', sans-serif;
+            font-weight: 500;
+        }
+    }
+}

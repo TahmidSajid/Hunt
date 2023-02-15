@@ -1,0 +1,69 @@
+#portfolio{
+    padding: 100px 0px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.798), rgba(0, 0, 0, 0.729)),
+    url(../images/portfolio_bg.jpg) no-repeat center / cover;
+    clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+    .portfolio_head{
+        padding-bottom: 63px;
+        p{
+            padding: 0px 303px !important;
+            font-size: 14px;
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+        }
+        h2{
+            font-size: 32px;
+            text-transform: capitalize;
+            color: white;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 500;
+            padding-bottom: 16px !important;
+        }
+    }
+    .port_img_one{
+        position: relative;
+        &:hover{
+            .port_overlay{
+                height: 100%;
+                opacity: 1;
+            }
+        }
+    }
+    .port_img_two{
+        position: relative;
+        margin-top: 28px;
+        &:hover{
+            .port_overlay{
+                height: 100%;
+                opacity: 1;
+            }
+        }
+    }
+    .port_overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background-color: rgba(0, 0, 0, 0.729);
+        opacity: 0;
+        transition: 0.5s;
+        i{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 18px;
+            border: 1px solid white;
+            padding: 15px;
+            border-radius: 50%;
+            line-height: 25px;
+            transition: 0.5s; 
+            &:hover{
+                background-color: skyblue;
+            }
+        }
+    }
+}

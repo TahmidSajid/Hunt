@@ -1,0 +1,95 @@
+#service{
+    margin-bottom: 85px;
+    .service_head{
+        padding-bottom: 102px;
+        p{
+            font-size: 14px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            width: 566px;
+            margin: 0 auto;
+        }
+        h2{
+            font-size: 32px;
+            text-transform: capitalize;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 500;
+            padding-bottom: 16px !important;
+        }
+    }
+    .slider_sec{
+        position: relative;
+    }
+    .service_icon{
+        background-color: #eeeeee;
+        height: 100px;
+        width: 100px;
+        margin: 0 auto;
+        border-radius: 50%;
+        transition: 0.5s;
+        img{
+            margin: 0 auto;
+            padding: 21px 0px;
+        }
+    }
+    .service_txt{
+        padding-bottom: 30px !important;
+        p{
+            padding: 56px 31px !important;
+            background-color: #eeeeee;
+            font-size: 14px;
+        }
+    }
+    .slick-center{
+        .service_icon{
+            background-color: #fec600;
+            transform: scale(1.3);
+        }
+        .service_txt{
+            filter: drop-shadow(0px 0px 3px gray);
+            -webkit-filter: drop-shadow(0px 0px 3px gray);
+        }
+    }
+    .slider_line{
+        position: absolute;
+        bottom: 6%;
+        left: 50%;
+        height: 780px;
+        z-index: -1;
+        img{
+            height: 105%;
+        }
+    }
+    .slide_up{
+        position: absolute;
+        left: 50%;
+        bottom: 99.1%;
+        transform: translate(-50% , -50%);
+        font-size: 35px;
+        font-size: 35px;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 50%;
+        line-height: 20px;
+        transition: 0.5s;
+        &:hover{
+            background-color: #fec600;
+            border: 1px solid transparent;
+        }
+    }
+    .slide_down{
+        position: absolute;
+        left: 50%;
+        top: 102.5%;
+        transform: translate(-50% , -50%);
+        font-size: 35px;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 50%;
+        line-height: 20px;
+        &:hover{
+            background-color: #fec600;
+            border: 1px solid transparent;
+        }
+    }
+}
