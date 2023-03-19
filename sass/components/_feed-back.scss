@@ -97,15 +97,12 @@
             margin: 0 auto;
             transition: 0.5s;
             opacity: 1;
-            transform: scale(0.8);
+            transform: scale(0.7);
         }
     }
     .slick-center{
-        .feed_pro{
-            .img{
-                transform: scale(1.1);
-                opacity: 1;
-            }
+        .feed_img{
+            transform: scale(1);
         }
     }
     .feed_up {

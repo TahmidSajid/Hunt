@@ -1,6 +1,6 @@
 $(window).scroll(function(){
     var scrolling = $(this).scrollTop()
-    if(scrolling > 413){
+    if(scrolling > 100){
       $(".navbar").addClass("nav-bg")
     }else{
       $(".navbar").removeClass("nav-bg")
